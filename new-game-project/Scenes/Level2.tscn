@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://1fxx4r5g3u8d"]
+[gd_scene load_steps=7 format=4 uid="uid://1fxx4r5g3u8d"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Untitled design (5).png" id="1_llpxi"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Terrain (16x16).png" id="2_bmx3y"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="3_kgn2c"]
+[ext_resource type="AudioStream" uid="uid://bky7k3ccv2ur8" path="res://jump.mp3" id="4_62hoj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ogvk6"]
 texture = ExtResource("2_bmx3y")
@@ -197,3 +198,7 @@ zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 drag_horizontal_offset = 1.0
 drag_vertical_offset = -1.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("4_62hoj")
+volume_db = 8.268
