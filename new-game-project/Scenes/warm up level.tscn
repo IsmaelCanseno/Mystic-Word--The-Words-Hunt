@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://ytagpd4pe3rg"]
+[gd_scene load_steps=7 format=4 uid="uid://ytagpd4pe3rg"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Untitled design (5).png" id="1_fkd5t"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Terrain (16x16).png" id="2_th1vk"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="3_86d2b"]
+[ext_resource type="AudioStream" uid="uid://delws08q4ng17" path="res://bg effects.mp3" id="4_i6vle"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ogvk6"]
 texture = ExtResource("2_th1vk")
@@ -194,3 +195,6 @@ position = Vector2(198, 508)
 position = Vector2(-0.799999, 0.666665)
 scale = Vector2(0.2, 0.222222)
 zoom = Vector2(2, 2)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_i6vle")
