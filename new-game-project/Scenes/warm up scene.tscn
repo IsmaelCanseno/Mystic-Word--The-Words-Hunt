@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfcufrikesl4d"]
+
+[ext_resource type="Texture2D" uid="uid://dfs5hyxwi51xp" path="res://Untitled design (4).png" id="1_x7af5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wy8cn"]
+texture = ExtResource("1_x7af5")
+modulate_color = Color(0.347817, 0.347817, 0.347817, 1)
+
+[node name="WarmUpScene" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1155.0
+offset_bottom = 652.0
+
+[node name="Panel" type="Panel" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_wy8cn")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 244.0
+offset_top = 268.0
+offset_right = 968.0
+offset_bottom = 351.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 60
+text = "MAHAL KO PA SYA HUHU"
