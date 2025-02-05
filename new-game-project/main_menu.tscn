@@ -1,9 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://mcvb33bj01ji"]
+[gd_scene load_steps=10 format=3 uid="uid://mcvb33bj01ji"]
 
 [ext_resource type="Texture2D" uid="uid://dfs5hyxwi51xp" path="res://Untitled design (4).png" id="1_aegbo"]
 [ext_resource type="Script" path="res://main_menu.gd" id="1_qog0k"]
 [ext_resource type="FontFile" uid="uid://dcst3a2uj731d" path="res://GrapeSoda.ttf" id="2_sfkvv"]
-[ext_resource type="AudioStream" uid="uid://y2cu2af0psok" path="res://game-start.mp3" id="3_5v3fh"]
 [ext_resource type="AudioStream" uid="uid://delws08q4ng17" path="res://bg effects.mp3" id="4_y04u4"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nbers"]
@@ -114,10 +113,6 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_ecctj")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_w3w3t")
 theme_override_styles/normal = SubResource("StyleBoxFlat_qxb3g")
 text = "PLAY"
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="VBoxContainer/PLAY BUTTON"]
-position = Vector2(18, 53)
-stream = ExtResource("3_5v3fh")
 
 [node name="EXIT BUTTON" type="Button" parent="VBoxContainer"]
 texture_filter = 1
