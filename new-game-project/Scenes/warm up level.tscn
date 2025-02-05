@@ -189,3 +189,8 @@ tile_set = SubResource("TileSet_56ogb")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_86d2b")]
 position = Vector2(198, 508)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(-0.799999, 0.666665)
+scale = Vector2(0.2, 0.222222)
+zoom = Vector2(2, 2)
