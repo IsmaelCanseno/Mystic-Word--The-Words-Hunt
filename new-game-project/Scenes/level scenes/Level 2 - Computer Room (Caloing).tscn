@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=4 uid="uid://dwkbi00yha4gi"]
+[gd_scene load_steps=11 format=4 uid="uid://dwkbi00yha4gi"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_d871o"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_hqjuk"]
 [ext_resource type="Texture2D" uid="uid://btprt6d35k1u2" path="res://Scenes/tilemaps/Computer Room Spritesheet 1.png" id="3_xae78"]
 [ext_resource type="Texture2D" uid="uid://e3s1yy4a2qmw" path="res://Scenes/tilemaps/Computer Room Spritesheet 6.png" id="4_7x3fs"]
+[ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="5_0a47s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wroxp"]
 texture = ExtResource("2_hqjuk")
@@ -4226,3 +4227,6 @@ texture_filter = 1
 position = Vector2(64, -188)
 scale = Vector2(0.375, 0.375)
 tile_set = SubResource("TileSet_t0bbc")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("5_0a47s")]
+position = Vector2(516, 386)
