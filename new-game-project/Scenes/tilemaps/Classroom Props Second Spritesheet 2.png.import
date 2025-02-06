@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chyo0vbbiwbf3"
-path="res://.godot/imported/Run (32x32).png-448439aeb8095dde0c51c1fbc2bea5a9.ctex"
+uid="uid://d2pv1bsyxlxb1"
+path="res://.godot/imported/Classroom Props Second Spritesheet 2.png-2945f7a2b1eaca0a2851ff345a861d25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-448439aeb8095dde0c51c1fbc2bea5a9.ctex"]
+source_file="res://Scenes/tilemaps/Classroom Props Second Spritesheet 2.png"
+dest_files=["res://.godot/imported/Classroom Props Second Spritesheet 2.png-2945f7a2b1eaca0a2851ff345a861d25.ctex"]
 
 [params]
 

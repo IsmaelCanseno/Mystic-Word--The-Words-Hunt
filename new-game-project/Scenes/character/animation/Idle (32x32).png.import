@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djvo0uh5n64gr"
-path="res://.godot/imported/Classroom Props First Spritesheet 2.png-2df1fcb8c93fd013266365986b614fc2.ctex"
+uid="uid://bvyedxj1ulgu6"
+path="res://.godot/imported/Idle (32x32).png-7475ac2c97e01901085e99ecf42490bd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Classroom Props First Spritesheet 2.png"
-dest_files=["res://.godot/imported/Classroom Props First Spritesheet 2.png-2df1fcb8c93fd013266365986b614fc2.ctex"]
+source_file="res://Scenes/character/animation/Idle (32x32).png"
+dest_files=["res://.godot/imported/Idle (32x32).png-7475ac2c97e01901085e99ecf42490bd.ctex"]
 
 [params]
 

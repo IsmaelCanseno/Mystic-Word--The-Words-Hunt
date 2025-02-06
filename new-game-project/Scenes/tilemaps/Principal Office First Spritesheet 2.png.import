@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://siuoutv0hjca"
-path="res://.godot/imported/Classroom Props Second Spritesheet 4.png-e0a220dd170e33d885ddf7040a415819.ctex"
+uid="uid://did70p7yqhayj"
+path="res://.godot/imported/Principal Office First Spritesheet 2.png-ba6ed8c7521cc091de01f96a770cb158.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Classroom Props Second Spritesheet 4.png"
-dest_files=["res://.godot/imported/Classroom Props Second Spritesheet 4.png-e0a220dd170e33d885ddf7040a415819.ctex"]
+source_file="res://Scenes/tilemaps/Principal Office First Spritesheet 2.png"
+dest_files=["res://.godot/imported/Principal Office First Spritesheet 2.png-ba6ed8c7521cc091de01f96a770cb158.ctex"]
 
 [params]
 
