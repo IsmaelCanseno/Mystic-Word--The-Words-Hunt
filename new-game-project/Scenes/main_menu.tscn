@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=3 uid="uid://mcvb33bj01ji"]
 
-[ext_resource type="Texture2D" uid="uid://dfs5hyxwi51xp" path="res://Untitled design (4).png" id="1_aegbo"]
-[ext_resource type="Script" path="res://main_menu.gd" id="1_qog0k"]
-[ext_resource type="FontFile" uid="uid://dcst3a2uj731d" path="res://GrapeSoda.ttf" id="2_sfkvv"]
-[ext_resource type="AudioStream" uid="uid://delws08q4ng17" path="res://bg effects.mp3" id="4_y04u4"]
+[ext_resource type="Texture2D" uid="uid://dfs5hyxwi51xp" path="res://Scenes/tilemaps/Untitled design (4).png" id="1_aegbo"]
+[ext_resource type="Script" path="res://Scenes/main_menu.gd" id="1_qog0k"]
+[ext_resource type="FontFile" uid="uid://dcst3a2uj731d" path="res://Scenes/fonts/GrapeSoda.ttf" id="2_sfkvv"]
+[ext_resource type="AudioStream" uid="uid://delws08q4ng17" path="res://Scenes/Sound/bg effects.mp3" id="4_y04u4"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nbers"]
 texture = ExtResource("1_aegbo")

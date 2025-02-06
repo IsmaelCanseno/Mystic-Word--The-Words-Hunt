@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpnadrlh67vnr"
-path="res://.godot/imported/Art Room Spritesheet 2.png-b3077af23dad5a713bec05cc9aaa1eba.ctex"
+uid="uid://chyo0vbbiwbf3"
+path="res://.godot/imported/Run (32x32).png-f55321f517d0b301c0fadef9a3a543b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Room Spritesheet 2.png"
-dest_files=["res://.godot/imported/Art Room Spritesheet 2.png-b3077af23dad5a713bec05cc9aaa1eba.ctex"]
+source_file="res://Scenes/character/animation/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-f55321f517d0b301c0fadef9a3a543b6.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfs5hyxwi51xp"
-path="res://.godot/imported/Untitled design (4).png-2c2b412dbfdf9b9352b31f65e3c28b20.ctex"
+uid="uid://ciwkaw7p5hjxg"
+path="res://.godot/imported/Art Room Spritesheet 2.png-c1ad464348afe7455e3f615d5f893681.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Untitled design (4).png"
-dest_files=["res://.godot/imported/Untitled design (4).png-2c2b412dbfdf9b9352b31f65e3c28b20.ctex"]
+source_file="res://Scenes/tilemaps/Art Room Spritesheet 2.png"
+dest_files=["res://.godot/imported/Art Room Spritesheet 2.png-c1ad464348afe7455e3f615d5f893681.ctex"]
 
 [params]
 

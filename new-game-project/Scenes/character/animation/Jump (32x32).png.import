@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca83sbcreg5kh"
-path="res://.godot/imported/Art Room Spritesheet 1.png-d5c78dd88ba77cec7e488745e478fbe9.ctex"
+uid="uid://bqp6c2p14irte"
+path="res://.godot/imported/Jump (32x32).png-bfae942daf1742c605aad7276abb1037.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art Room Spritesheet 1.png"
-dest_files=["res://.godot/imported/Art Room Spritesheet 1.png-d5c78dd88ba77cec7e488745e478fbe9.ctex"]
+source_file="res://Scenes/character/animation/Jump (32x32).png"
+dest_files=["res://.godot/imported/Jump (32x32).png-bfae942daf1742c605aad7276abb1037.ctex"]
 
 [params]
 
