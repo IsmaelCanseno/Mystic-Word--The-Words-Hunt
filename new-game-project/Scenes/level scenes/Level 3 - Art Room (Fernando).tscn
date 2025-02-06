@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://ciwkaw7p5hjxg" path="res://Scenes/tilemaps/Art Room Spritesheet 2.png" id="4_c6xac"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="5_u68jt"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bxnij"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lm87o"]
 texture = ExtResource("2_604s2")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -298,9 +298,9 @@ texture = ExtResource("2_604s2")
 
 [sub_resource type="TileSet" id="TileSet_vljlu"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_bxnij")
+sources/0 = SubResource("TileSetAtlasSource_lm87o")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8a8e8"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d1o80"]
 texture = ExtResource("3_q4tcn")
 4:1/0 = 0
 5:1/0 = 0
@@ -2386,7 +2386,7 @@ texture = ExtResource("3_q4tcn")
 57:62/0 = 0
 60:62/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jlulh"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_smjlk"]
 texture = ExtResource("4_c6xac")
 17:0/0 = 0
 18:0/0 = 0
@@ -4855,8 +4855,8 @@ texture = ExtResource("4_c6xac")
 
 [sub_resource type="TileSet" id="TileSet_hslv8"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_8a8e8")
-sources/1 = SubResource("TileSetAtlasSource_jlulh")
+sources/0 = SubResource("TileSetAtlasSource_d1o80")
+sources/1 = SubResource("TileSetAtlasSource_smjlk")
 
 [node name="Level3" type="Node"]
 
