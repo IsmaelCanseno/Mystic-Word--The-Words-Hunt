@@ -56,39 +56,13 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_nbers")
 
-[node name="SETTINGS BUITTON" type="Button" parent="."]
-texture_filter = 1
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = 356.0
-offset_top = -275.0
-offset_right = 549.0
-offset_bottom = -207.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
-theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 30
-theme_override_styles/focus = SubResource("StyleBoxEmpty_sm4pd")
-theme_override_styles/hover = SubResource("StyleBoxFlat_ecctj")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_w3w3t")
-theme_override_styles/normal = SubResource("StyleBoxFlat_qxb3g")
-text = "SETTINGS"
-
 [node name="PLAY BUTTON" type="Button" parent="."]
 texture_filter = 1
 layout_mode = 2
-offset_left = 441.0
-offset_top = 426.0
-offset_right = 711.0
-offset_bottom = 500.0
+offset_left = 506.0
+offset_top = 422.0
+offset_right = 707.0
+offset_bottom = 485.0
 size_flags_vertical = 3
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -106,10 +80,10 @@ text = "PLAY"
 [node name="EXIT BUTTON" type="Button" parent="."]
 texture_filter = 1
 layout_mode = 2
-offset_left = 442.0
-offset_top = 519.0
-offset_right = 712.0
-offset_bottom = 595.0
+offset_left = 506.0
+offset_top = 498.0
+offset_right = 706.0
+offset_bottom = 562.0
 size_flags_vertical = 3
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -129,10 +103,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -359.0
-offset_top = 145.0
-offset_right = 375.0
-offset_bottom = 378.0
+offset_left = -338.0
+offset_top = 104.0
+offset_right = 396.0
+offset_bottom = 337.0
 grow_horizontal = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 15
@@ -150,6 +124,5 @@ autoplay = true
 playback_type = 1
 parameters/looping = true
 
-[connection signal="pressed" from="SETTINGS BUITTON" to="." method="_on_settings_buitton_pressed"]
 [connection signal="pressed" from="PLAY BUTTON" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="EXIT BUTTON" to="." method="_on_exit_button_pressed"]
