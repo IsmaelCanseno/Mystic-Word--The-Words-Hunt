@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=4 uid="uid://l53ot3jcssx1"]
+[gd_scene load_steps=12 format=4 uid="uid://l53ot3jcssx1"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_d8gl0"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_604s2"]
 [ext_resource type="Texture2D" uid="uid://cetqayjvo2e5h" path="res://Scenes/tilemaps/Art Room Spritesheet 1.png" id="3_q4tcn"]
 [ext_resource type="Texture2D" uid="uid://ciwkaw7p5hjxg" path="res://Scenes/tilemaps/Art Room Spritesheet 2.png" id="4_c6xac"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="5_u68jt"]
+[ext_resource type="AudioStream" uid="uid://bxqgm1xjf3sdm" path="res://Scenes/Sound/playing.mp3" id="6_v13cl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lm87o"]
 texture = ExtResource("2_604s2")
@@ -6051,7 +6052,7 @@ tile_map_data = PackedByteArray("AAAbAB8AAAAHABkAAAAbACAAAAAHABoAAAAbACEAAAAHABs
 tile_set = SubResource("TileSet_hslv8")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_u68jt")]
-position = Vector2(204, 173)
+position = Vector2(203, 192)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(-0.799999, 1.33334)
@@ -6063,3 +6064,9 @@ drag_left_margin = 0.6
 drag_top_margin = 0.42
 drag_right_margin = 0.0
 drag_bottom_margin = 0.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("6_v13cl")
+volume_db = 15.0
+autoplay = true
+parameters/looping = true

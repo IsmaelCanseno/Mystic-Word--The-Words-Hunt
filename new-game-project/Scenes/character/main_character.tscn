@@ -210,7 +210,6 @@ shape = SubResource("RectangleShape2D_lb4ag")
 
 [node name="JumpSoundEffects" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(5.68434e-15, 0)
-scale = Vector2(1, 1)
 stream = ExtResource("5_frxeq")
-volume_db = 10.0
+volume_db = 5.0
 autoplay = true
