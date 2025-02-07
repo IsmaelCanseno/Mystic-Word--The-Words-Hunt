@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=4 uid="uid://cgrff8ohgw5cy"]
+[gd_scene load_steps=12 format=4 uid="uid://cgrff8ohgw5cy"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_8no68"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_7kh4d"]
 [ext_resource type="Texture2D" uid="uid://d2pv1bsyxlxb1" path="res://Scenes/tilemaps/Classroom Props Second Spritesheet 2.png" id="3_b3yr6"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="3_rfukb"]
 [ext_resource type="Texture2D" uid="uid://dft0tm50v36em" path="res://Scenes/tilemaps/Classroom Props First Spritesheet 1.png" id="4_52nso"]
+[ext_resource type="AudioStream" uid="uid://bxqgm1xjf3sdm" path="res://Scenes/Sound/playing.mp3" id="6_gmf8a"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_580t2"]
 texture = ExtResource("2_7kh4d")
@@ -2115,7 +2116,7 @@ tile_map_data = PackedByteArray("AAA2AEYAAQAwAD0AAAA3AEYAAQAxAD0AAABBAEYAAQA7AD0
 tile_set = SubResource("TileSet_u656y")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_rfukb")]
-position = Vector2(155, 119)
+position = Vector2(153, 134)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 offset = Vector2(69, 23)
@@ -2127,3 +2128,9 @@ drag_left_margin = 0.6
 drag_top_margin = 0.42
 drag_right_margin = 0.0
 drag_bottom_margin = 0.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("6_gmf8a")
+volume_db = 15.0
+autoplay = true
+parameters/looping = true
