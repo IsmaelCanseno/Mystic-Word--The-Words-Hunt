@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://d2wt4gy5i1gf8"]
+[gd_scene load_steps=16 format=4 uid="uid://d2wt4gy5i1gf8"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_6cmix"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_8ms4n"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bbrj6igqlkm6q" path="res://Scenes/tilemaps/Principal Office Second Spritesheet 1.png" id="5_tf300"]
 [ext_resource type="Texture2D" uid="uid://1tkw5jeiy1cc" path="res://Scenes/tilemaps/Principal Office Second Spritesheet 2.png" id="6_oylpg"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="7_arn7e"]
+[ext_resource type="AudioStream" uid="uid://bxqgm1xjf3sdm" path="res://Scenes/Sound/playing.mp3" id="8_o8r0j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bh1p4"]
 texture = ExtResource("2_8ms4n")
@@ -10689,10 +10690,22 @@ tile_map_data = PackedByteArray("AABRAEkAAAACAAcAAABRAEoAAAACAAgAAABRAEsAAAACAAk
 tile_set = SubResource("TileSet_qhxli")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("7_arn7e")]
-position = Vector2(182, 533)
+position = Vector2(182, 545)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(-0.199999, 2.22222)
 scale = Vector2(0.075, 0.0833333)
 offset = Vector2(1, 1)
-zoom = Vector2(3, 3)
+zoom = Vector2(2, 2)
+drag_horizontal_offset = 0.35
+drag_vertical_offset = 0.1
+drag_left_margin = 0.6
+drag_top_margin = 0.42
+drag_right_margin = 0.0
+drag_bottom_margin = 0.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_o8r0j")
+volume_db = 15.0
+autoplay = true
+parameters/looping = true
