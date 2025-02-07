@@ -6128,15 +6128,15 @@ sources/1 = SubResource("TileSetAtlasSource_cbyki")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -512.0
-offset_top = -512.0
-offset_right = 512.0
-offset_bottom = 512.0
+anchors_preset = -1
+anchor_left = 0.126
+anchor_top = 0.286
+anchor_right = 0.126
+anchor_bottom = 0.286
+offset_left = -81.152
+offset_top = -373.328
+offset_right = 942.848
+offset_bottom = 650.672
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_d871o")
@@ -6159,7 +6159,4 @@ tile_set = SubResource("TileSet_t0bbc")
 position = Vector2(149, 182)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-drag_horizontal_offset = 1.0
-drag_vertical_offset = 1.0
-drag_left_margin = 0.74
-drag_top_margin = 0.4
+zoom = Vector2(3, 3)

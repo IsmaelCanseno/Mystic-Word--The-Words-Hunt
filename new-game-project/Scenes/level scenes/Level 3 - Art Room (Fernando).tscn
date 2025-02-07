@@ -6052,3 +6052,8 @@ tile_set = SubResource("TileSet_hslv8")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_u68jt")]
 position = Vector2(204, 154)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(-0.799999, 1.33334)
+scale = Vector2(0.2, 0.222222)
+zoom = Vector2(3, 3)
