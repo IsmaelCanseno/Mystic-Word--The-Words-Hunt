@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://d2wt4gy5i1gf8"]
+[gd_scene load_steps=17 format=4 uid="uid://d2wt4gy5i1gf8"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_4v7e0"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_ajruj"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://1tkw5jeiy1cc" path="res://Scenes/tilemaps/Principal Office Second Spritesheet 2.png" id="6_gsy75"]
 [ext_resource type="PackedScene" uid="uid://05n0tpcx2s88" path="res://Scenes/next_level_cube/next_level.tscn" id="7_llip4"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="8_x5qyo"]
+[ext_resource type="AudioStream" uid="uid://bxqgm1xjf3sdm" path="res://Scenes/Sound/playing.mp3" id="9_k8804"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bh1p4"]
 texture = ExtResource("2_ajruj")
@@ -10701,3 +10702,9 @@ position = Vector2(-0.199999, 2.22222)
 scale = Vector2(0.075, 0.0833333)
 offset = Vector2(1, 1)
 zoom = Vector2(2, 2)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("9_k8804")
+volume_db = 15.0
+autoplay = true
+parameters/looping = true

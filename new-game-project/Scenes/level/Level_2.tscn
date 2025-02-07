@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=4 uid="uid://dwkbi00yha4gi"]
+[gd_scene load_steps=13 format=4 uid="uid://dwkbi00yha4gi"]
 
 [ext_resource type="Texture2D" uid="uid://drldl7rn55nh1" path="res://Scenes/background/Untitled design (5).png" id="1_vsnpi"]
 [ext_resource type="Texture2D" uid="uid://5mg75py35un6" path="res://Scenes/tilemaps/Terrain (16x16).png" id="2_33qeo"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://e3s1yy4a2qmw" path="res://Scenes/tilemaps/Computer Room Spritesheet 6.png" id="4_82vfd"]
 [ext_resource type="PackedScene" uid="uid://05n0tpcx2s88" path="res://Scenes/next_level_cube/next_level.tscn" id="5_rk7pg"]
 [ext_resource type="PackedScene" uid="uid://dr4patlt4yn6u" path="res://Scenes/character/main_character.tscn" id="6_np38s"]
+[ext_resource type="AudioStream" uid="uid://bxqgm1xjf3sdm" path="res://Scenes/Sound/playing.mp3" id="7_4lorn"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wroxp"]
 texture = ExtResource("2_33qeo")
@@ -6165,3 +6166,9 @@ position = Vector2(149, 182)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 zoom = Vector2(2, 2)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="CharacterBody2D"]
+stream = ExtResource("7_4lorn")
+volume_db = 15.0
+autoplay = true
+parameters/looping = true

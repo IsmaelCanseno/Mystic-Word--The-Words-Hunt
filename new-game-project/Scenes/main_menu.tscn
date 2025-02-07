@@ -64,10 +64,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 369.0
-offset_top = -305.0
-offset_right = 562.0
-offset_bottom = -237.0
+offset_left = 356.0
+offset_top = -275.0
+offset_right = 549.0
+offset_bottom = -207.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
@@ -82,24 +82,13 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_w3w3t")
 theme_override_styles/normal = SubResource("StyleBoxFlat_qxb3g")
 text = "SETTINGS"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -135.0
-offset_top = 11.0
-offset_right = 135.0
-offset_bottom = 179.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 19
-
-[node name="PLAY BUTTON" type="Button" parent="VBoxContainer"]
+[node name="PLAY BUTTON" type="Button" parent="."]
 texture_filter = 1
 layout_mode = 2
+offset_left = 441.0
+offset_top = 426.0
+offset_right = 711.0
+offset_bottom = 500.0
 size_flags_vertical = 3
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -114,9 +103,13 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_w3w3t")
 theme_override_styles/normal = SubResource("StyleBoxFlat_qxb3g")
 text = "PLAY"
 
-[node name="EXIT BUTTON" type="Button" parent="VBoxContainer"]
+[node name="EXIT BUTTON" type="Button" parent="."]
 texture_filter = 1
 layout_mode = 2
+offset_left = 442.0
+offset_top = 519.0
+offset_right = 712.0
+offset_bottom = 595.0
 size_flags_vertical = 3
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
@@ -136,15 +129,15 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -311.0
-offset_top = 100.0
-offset_right = 311.0
-offset_bottom = 269.0
+offset_left = -359.0
+offset_top = 145.0
+offset_right = 375.0
+offset_bottom = 378.0
 grow_horizontal = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_y = 15
 theme_override_fonts/font = ExtResource("2_sfkvv")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 114
 text = "MYSTIC WORD:
 THE WORD HUNT"
 horizontal_alignment = 1
@@ -158,5 +151,5 @@ playback_type = 1
 parameters/looping = true
 
 [connection signal="pressed" from="SETTINGS BUITTON" to="." method="_on_settings_buitton_pressed"]
-[connection signal="pressed" from="VBoxContainer/PLAY BUTTON" to="." method="_on_play_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/EXIT BUTTON" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="PLAY BUTTON" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="EXIT BUTTON" to="." method="_on_exit_button_pressed"]
