@@ -1,9 +1,10 @@
-[gd_scene load_steps=30 format=3 uid="uid://dr4patlt4yn6u"]
+[gd_scene load_steps=31 format=3 uid="uid://dr4patlt4yn6u"]
 
 [ext_resource type="Script" path="res://Scenes/character/main_character.gd" id="1_gda8a"]
 [ext_resource type="Texture2D" uid="uid://bvyedxj1ulgu6" path="res://Scenes/character/animation/Idle (32x32).png" id="2_yxsp0"]
 [ext_resource type="Texture2D" uid="uid://bqp6c2p14irte" path="res://Scenes/character/animation/Jump (32x32).png" id="3_26qfp"]
 [ext_resource type="Texture2D" uid="uid://chyo0vbbiwbf3" path="res://Scenes/character/animation/Run (32x32).png" id="4_rapgc"]
+[ext_resource type="AudioStream" uid="uid://bky7k3ccv2ur8" path="res://Scenes/Sound/jump.mp3" id="5_frxeq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iupyw"]
 atlas = ExtResource("2_yxsp0")
@@ -199,10 +200,17 @@ texture_filter = 1
 position = Vector2(5.96046e-08, 0.777778)
 scale = Vector2(0.2875, 0.3125)
 sprite_frames = SubResource("SpriteFrames_shuxo")
+animation = &"running"
 autoplay = "default"
-frame_progress = 0.243432
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.666666)
 shape = SubResource("RectangleShape2D_lb4ag")
+
+[node name="JumpSoundEffects" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(5.68434e-15, 0)
+scale = Vector2(1, 1)
+stream = ExtResource("5_frxeq")
+volume_db = 10.0
+autoplay = true

@@ -6051,9 +6051,15 @@ tile_map_data = PackedByteArray("AAAbAB8AAAAHABkAAAAbACAAAAAHABoAAAAbACEAAAAHABs
 tile_set = SubResource("TileSet_hslv8")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_u68jt")]
-position = Vector2(204, 154)
+position = Vector2(204, 173)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(-0.799999, 1.33334)
 scale = Vector2(0.2, 0.222222)
-zoom = Vector2(3, 3)
+zoom = Vector2(2, 2)
+drag_horizontal_offset = 0.35
+drag_vertical_offset = 0.1
+drag_left_margin = 0.6
+drag_top_margin = 0.42
+drag_right_margin = 0.0
+drag_bottom_margin = 0.0
